@@ -2,12 +2,12 @@
 
 
 #pipeline {
-    agent any
+#    agent any
 
-    environment {
-        DEV_DOCKER_REPO = 'ppandian05/dev-repo'
-        PROD_DOCKER_REPO = 'ppandian05/prod-repo'
-        DOCKER_CREDENTIALS_ID = 'docker-hub-credentials'
+ #   environment {
+  #      DEV_DOCKER_REPO = 'ppandian05/dev-repo'
+   #     PROD_DOCKER_REPO = 'ppandian05/prod-repo'
+    #    DOCKER_CREDENTIALS_ID = 'docker-hub-credentials'
     }
 
     stages {
